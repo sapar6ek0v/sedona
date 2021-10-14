@@ -1,0 +1,566 @@
+@media (max-width: 1200px) {
+  /*from 1200px to 992px*/
+  .container {
+    max-width: 950px;
+  }
+
+  .bottom-hero img {
+    height: 46px;
+  }
+
+  .col-66 img {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .welcome-hero img {
+    height: 48px;
+  }
+
+  .to-the-hero img {
+    height: 29px;
+  }
+
+  .sedona-hero img {
+    height: 170px;
+  }
+
+  .bottom-hero img {
+    height: 36px;
+  }
+
+  .hero-sub-box-title {
+    min-height: 78px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto 13px;
+  }
+
+  .sedona-box {
+    min-height: 248px;
+    padding: 43px 0 46px;
+  }
+  .sedona-box-mean {
+    max-width: 212px;
+    font-size: 13px;
+  }
+  .sedona-box-title {
+    max-width: 140px;
+  }
+
+  .sedona-card-mean {
+    max-width: 192px;
+  }
+
+  .sedona-card-box {
+    padding: 56px 0 68px;
+  }
+  .sedona-card-box img {
+    margin-bottom: 22px;
+  }
+
+  .sedona-card-title {
+    line-height: 18px;
+    margin-bottom: 19px;
+  }
+
+  .about-card-mean {
+    max-width: 178px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .about-card-title {
+    margin-bottom: 20px;
+  }
+  .about-card-number {
+    margin-bottom: 18px;
+  }
+
+  .info {
+    padding: 50px 0 110px;
+  }
+  .info-title {
+    font-size: 28px;
+    line-height: 20px;
+    margin-bottom: 22px;
+  }
+  .info-mean {
+    max-width: 399px;
+    line-height: 20px;
+  }
+
+  .address-card-title {
+    width: 500px;
+    font-size: 21px;
+    line-height: 24px;
+    padding: 26px 0;
+    top: -76px;
+  }
+
+  .address-form {
+    width: 500px;
+    padding: 30px;
+  }
+
+  .address-input {
+    width: 321px;
+    padding: 5px 12px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .address-label {
+    margin-bottom: 26px;
+  }
+
+  .third {
+    margin-bottom: 50px;
+  }
+
+  .third-label-button#plusBth {
+    margin-right: 63px;
+  }
+
+  .address-button {
+    width: 442px;
+  }
+
+  .search-footer {
+    flex-wrap: wrap;
+  }
+  .search-footer-tel-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .search-footer-mean {
+    width: 100%;
+  }
+
+  .footer-media {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .col-66 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .col-4 {
+    width: 50.33%;
+    margin: 0 auto;
+  }
+
+  .header-menu {
+    padding: 20px;
+  }
+
+  .header-ul {
+    display: none;
+  }
+
+  .header-button {
+    display: block;
+    background: none;
+    border: none;
+  }
+
+  .header-logo-photo {
+    display: none;
+  }
+
+  .bottom-hero img {
+    height: 26px;
+  }
+
+  .hero-sub-box-title {
+    min-height: 70px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto 12px;
+  }
+  .hero-sub-box-mean {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .sedona-box {
+    margin-bottom: 26px;
+  }
+
+  .sedona-card-box {
+    padding: 50px 0 0;
+  }
+  .sedona-card-box:last-child {
+    margin-bottom: 40px;
+  }
+
+  .info {
+    padding: 105px 0 124px;
+  }
+
+  .address-card-title {
+    width: 400px;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 24px 0;
+    top: -71px;
+  }
+
+  .address-form {
+    width: 400px;
+    padding: 36px;
+  }
+
+  .address-label {
+    margin-bottom: 7px;
+    margin-right: 0;
+  }
+
+  .address-input {
+    width: 273px;
+    margin-bottom: 20px;
+  }
+
+  .third {
+    margin-bottom: 20px;
+  }
+
+  .third-label-sub-button:first-child {
+    margin-left: 76px;
+  }
+
+  .address-box {
+    height: 674px;
+  }
+
+  .address-button {
+    width: 325px;
+  }
+
+  .address-button {
+    width: 325px;
+    font-size: 19px;
+    line-height: 24px;
+    padding: 13px 0;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .col-4 {
+    width: 65%;
+  }
+
+  .welcome-hero img {
+    height: 42px;
+  }
+
+  .to-the-hero img {
+    height: 25px;
+  }
+
+  .sedona-hero img {
+    height: 162px;
+  }
+
+  .bottom-hero img {
+    height: 19px;
+  }
+
+  .hero-sub-box {
+    padding: 40px 0;
+  }
+  .hero-sub-box-title {
+    min-height: 68px;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 auto 0;
+  }
+  .hero-sub-box-mean {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .sedona-card-mean {
+    font-size: 12px;
+    max-width: 269px;
+  }
+
+  .sedona-box-title {
+    max-width: 158px;
+    font-size: 20px;
+    line-height: 19px;
+    margin: 0 auto 20px;
+  }
+
+  .sedona-card-box {
+    padding: 30px 0 0;
+  }
+  .sedona-card-box img {
+    margin-bottom: 15px;
+  }
+  .sedona-card-box:last-child {
+    margin-bottom: 20px;
+  }
+
+  .sedona-card-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+
+  .about-card-title {
+    max-width: 119px;
+    font-size: 18px;
+    line-height: 19px;
+    margin: 0 auto 15px;
+  }
+  .about-card-number {
+    margin-bottom: 15px;
+  }
+
+  .about-box-card {
+    padding: 50px 0 0;
+  }
+  .about-box-card:last-child {
+    margin-bottom: 40px;
+  }
+
+  .info {
+    padding: 76px 0 117px;
+  }
+  .info-title {
+    font-size: 24px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
+  .info-mean {
+    max-width: 371px;
+    line-height: 16px;
+    font-size: 13px;
+  }
+
+  .address-card-title {
+    width: 300px;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 22px 0;
+    top: -62px;
+  }
+
+  .address-form {
+    width: 300px;
+    padding: 22px;
+  }
+
+  .address-label {
+    margin-bottom: 5px;
+    margin-right: 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .address-input {
+    width: 246px;
+    margin-bottom: 18px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .address-button {
+    width: 253px;
+    font-size: 17px;
+    line-height: 21px;
+    padding: 13px 0;
+  }
+
+  .third-label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .address-box {
+    height: 635px;
+  }
+
+  .search-footer-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .search-footer-mean {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .footer-media-icon {
+    height: 40px;
+  }
+  .footer-media-icon a img {
+    height: 14px;
+  }
+
+  .first {
+    padding: 11px 13px;
+  }
+
+  .two {
+    padding: 9px 17px;
+  }
+
+  .three {
+    padding: 11px 13px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 290px;
+  }
+
+  .col-4 {
+    width: 78%;
+  }
+  .col-66 {
+    margin-bottom: 25px;
+  }
+
+  .header-button img {
+    height: 20px;
+  }
+
+  .hero {
+    min-height: 450px;
+  }
+
+  .welcome-hero img {
+    height: 32px;
+  }
+
+  .to-the-hero img {
+    height: 18px;
+  }
+
+  .sedona-hero img {
+    height: 126px;
+  }
+
+  .bottom-hero img {
+    height: 14px;
+  }
+
+  .hero-sub-box {
+    padding: 35px 0;
+  }
+  .hero-sub-box-title {
+    min-height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 285px;
+  }
+
+  .sedona-box {
+    padding: 49px 0 32px;
+  }
+  .sedona-box-title {
+    font-size: 17px;
+  }
+  .sedona-box-mean {
+    font-size: 12px;
+  }
+
+  .sedona-card-box img {
+    height: 51px;
+    margin-bottom: 10px;
+  }
+
+  .sedona-card-title {
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+  .about-box-card {
+    padding: 40px 0 0;
+  }
+  .about-box-card:last-child {
+    margin-bottom: 25px;
+  }
+
+  .about-card-title {
+    font-size: 16px;
+    line-height: 17px;
+    margin: 0 auto 10px;
+  }
+  .about-card-number {
+    margin-bottom: 10px;
+  }
+
+  .info {
+    padding: 50px 0 96px;
+  }
+  .info-title {
+    font-size: 20px;
+    line-height: 13px;
+    margin-bottom: 16px;
+  }
+  .info-mean {
+    max-width: 272px;
+    line-height: 14px;
+    font-size: 12px;
+  }
+
+  .address-box {
+    height: 554px;
+  }
+
+  .address-card-title {
+    width: 255px;
+    font-size: 13px;
+    padding: 19px 0;
+    top: -54px;
+  }
+
+  .address-form {
+    width: 255px;
+    padding: 14px;
+  }
+
+  .address-input {
+    width: 224px;
+    margin-bottom: 15px;
+  }
+
+  .address-button {
+    width: 226px;
+    font-size: 14px;
+    line-height: 11px;
+    padding: 12px 0;
+  }
+
+  .search-footer {
+    padding: 30px 18px;
+  }
+  .search-footer-tel-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-media {
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

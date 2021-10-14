@@ -1,0 +1,316 @@
+/*------ hotels -------*/
+@media (max-width: 1200px) {
+  /* from 1200px to 992px*/
+  .container {
+    max-width: 950px;
+  }
+
+  .search-card {
+    margin-right: 56px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .search-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search-card {
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .pricing {
+    margin-left: 0;
+  }
+
+  .search-footer {
+    flex-wrap: wrap;
+  }
+  .search-footer-tel-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .search-footer-mean {
+    width: 100%;
+  }
+
+  .search-header {
+    padding: 27px 22px 29px;
+  }
+  .search-header-title {
+    padding-right: 40px;
+  }
+
+  .search-first {
+    padding-right: 35px;
+  }
+
+  .search-li {
+    padding-right: 30px;
+  }
+  .search-li-active {
+    padding-right: 30px;
+  }
+
+  .search-photo-card {
+    padding: 25px 22px 30px;
+  }
+
+  .search-photo-card-img {
+    padding-right: 22px;
+  }
+
+  .footer-media {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header-menu {
+    padding: 20px;
+  }
+
+  .header-ul {
+    display: none;
+  }
+
+  .header-button {
+    display: block;
+    background: none;
+    border: none;
+  }
+
+  .header-logo-photo {
+    display: none;
+  }
+
+  .search-link {
+    display: none;
+  }
+
+  .search-button {
+    display: block;
+  }
+
+  .search-card-title {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+
+  .search-photo-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .search-photo-card-img {
+    margin-bottom: 20px;
+  }
+
+  .star {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  .star-box {
+    text-align: start;
+    width: 122px;
+    margin-bottom: 0;
+  }
+  .star-bot-title {
+    margin-left: 260px;
+    background: #F2F2F2;
+    padding: 13px 12px;
+  }
+
+  .search-footer {
+    padding: 36px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .search-box {
+    padding: 26px 21px;
+  }
+
+  .search-card {
+    width: 83%;
+    margin: 0 auto 30px;
+  }
+
+  .search-header-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .search-title {
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+
+  .search-span {
+    font-size: 13px;
+    line-height: 10px;
+  }
+
+  .search-input::before {
+    margin-right: 12px;
+  }
+
+  .search-card-cost {
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 11px;
+  }
+
+  .search-card-title {
+    font-size: 17px;
+    line-height: 18px;
+  }
+
+  .pricing {
+    margin: 0 auto;
+  }
+  .pricing-input {
+    width: 148px;
+  }
+  .pricing-title {
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+
+  .search-header {
+    padding: 21px 22px 23px;
+  }
+
+  .search-photo-card {
+    padding: 14px 22px 30px;
+  }
+
+  .star {
+    padding: 25px 0 0;
+  }
+  .star-bot-title {
+    margin-left: 119px;
+    padding: 10px 9px;
+    font-size: 12px;
+  }
+
+  .search-footer-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .search-footer-mean {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .footer-media-icon {
+    height: 40px;
+  }
+  .footer-media-icon a img {
+    height: 14px;
+  }
+
+  .first {
+    padding: 11px 13px;
+  }
+
+  .two {
+    padding: 9px 17px;
+  }
+
+  .three {
+    padding: 11px 13px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 290px;
+  }
+
+  .header-button img {
+    height: 20px;
+  }
+
+  .search-card {
+    margin: 0 auto 26px;
+  }
+
+  .pricing-input {
+    width: 102px;
+  }
+
+  .pricing-button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 29px;
+  }
+
+  #slider {
+    margin-bottom: 30px;
+  }
+
+  .search-header {
+    padding: 18px 12px;
+  }
+  .search-header-title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .search-photo-card {
+    padding: 14px 10px 30px;
+  }
+
+  .search-photo-card-img {
+    margin-bottom: 15px;
+  }
+
+  .search-card-title {
+    font-size: 15px;
+    line-height: 12px;
+  }
+
+  .search-card-button {
+    font-size: 13px;
+    padding: 3px 12px;
+  }
+
+  .star-bot-title {
+    margin-left: 52px;
+  }
+
+  .search-card-value {
+    font-size: 12px;
+  }
+
+  .search-footer {
+    padding: 30px 18px;
+  }
+  .search-footer-tel-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .footer-media {
+    margin-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=media-hotels.css.map */
