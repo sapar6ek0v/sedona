@@ -237,7 +237,7 @@
   }
 
   .third-label-sub-button:first-child {
-    margin-left: 76px;
+    margin-left: 72px;
   }
 
   .address-box {
@@ -443,6 +443,7 @@
   }
 
   .hero {
+    overflow: hidden;
     min-height: 450px;
   }
 
@@ -466,10 +467,11 @@
     padding: 35px 0;
   }
   .hero-sub-box-title {
-    min-height: 48px;
-    font-size: 14px;
+    min-height: 56px;
+    font-size: 13px;
     line-height: 16px;
     max-width: 285px;
+    text-align: center;
   }
 
   .sedona-box {
@@ -479,7 +481,8 @@
     font-size: 17px;
   }
   .sedona-box-mean {
-    font-size: 12px;
+    font-size: 11px;
+    text-align: center;
   }
 
   .sedona-card-box img {
@@ -505,22 +508,29 @@
     line-height: 17px;
     margin: 0 auto 10px;
   }
+  .about-card-mean {
+    max-width: 163px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bolder;
+  }
   .about-card-number {
     margin-bottom: 10px;
   }
 
   .info {
-    padding: 50px 0 96px;
+    padding: 50px 0 89px;
   }
   .info-title {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 13px;
-    margin-bottom: 16px;
+    margin-bottom: 21px;
   }
   .info-mean {
-    max-width: 272px;
+    max-width: 257px;
     line-height: 14px;
-    font-size: 12px;
+    font-size: 11px;
+    text-align: center;
   }
 
   .address-box {
